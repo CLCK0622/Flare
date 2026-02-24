@@ -1,26 +1,35 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-outfit);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f6f2;
+  color: #1a1714;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #ff7a00 0%, #ffb800 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* FAQ accordion toggle */
+.faq-toggle {
+  transition: transform 0.2s ease;
+}
+
+details[open] .faq-toggle {
+  transform: rotate(45deg);
+}
+
+/* Remove default disclosure triangle */
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::marker {
+  display: none;
 }
