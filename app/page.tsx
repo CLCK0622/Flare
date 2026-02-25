@@ -65,19 +65,20 @@ export default function Home() {
         </h2>
 
         <div className="space-y-3">
-          {faqs.map(({ q, a }) => (
-            <details
-              key={q}
-              className="rounded-2xl overflow-hidden"
-              style={{ border: "1px solid rgba(255,184,0,0.3)" }}
-            >
-              <summary className="flex items-center justify-between p-5 cursor-pointer list-none select-none font-semibold text-[#1A1714]">
-                <span>{q}</span>
-                <span className="faq-toggle ml-4 flex-shrink-0 text-2xl font-light leading-none text-[#FF7A00]">
+          {faqs.map(({q, a}) => (
+              <details
+                  key={q}
+                  className="rounded-2xl overflow-hidden"
+                  style={{border: "1px solid rgba(255,184,0,0.3)"}}
+              >
+                <summary
+                    className="flex items-center justify-between p-5 cursor-pointer list-none select-none font-semibold text-[#1A1714]">
+                  <span>{q}</span>
+                  <span className="faq-toggle ml-4 flex-shrink-0 text-2xl font-light leading-none text-[#FF7A00]">
                   +
                 </span>
-              </summary>
-              <p className="px-5 pb-5 text-[#6B5E52] leading-relaxed">{a}</p>
+                </summary>
+                <p className="px-5 pb-5 text-[#6B5E52] leading-relaxed">{a}</p>
             </details>
           ))}
         </div>
