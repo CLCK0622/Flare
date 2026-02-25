@@ -1,6 +1,13 @@
 <div align="center">
 
-  <img src="./public/logo.png" alt="Flare Logo" width="150" height="150" style="border-radius: 30px;">
+  <svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <clipPath id="round">
+          <rect width="150" height="150" rx="30" ry="30" />
+        </clipPath>
+      </defs>
+      <image href="./public/logo.png" width="150" height="150" clip-path="url(#round)" />
+    </svg>
 
   <h1>Flare</h1>
 
@@ -23,7 +30,3 @@ No elaborate planning, no formal event pages, and absolutely no commitment until
 * **Low-Friction Matching:** Tap *"I'm in!"* to express interest. The firer can then review and accept or pass.
 * **Ephemeral Chat:** A temporary 1:1 chat unlocks only *after* a match is accepted to coordinate the exact location and time.
 * **Auto-Expiry:** Flares disappear once their timeframe has passed (or max 24 hours). Chats and connections auto-delete 48 hours after the flare's timeframe ends, keeping the ecosystem fresh.
-
-<div align="center">
-  <p>Zero planning. 100% hanging out.</p>
-</div>
