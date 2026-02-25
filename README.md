@@ -1,13 +1,6 @@
 <div align="center">
 
-  <svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <clipPath id="round">
-        <rect width="150" height="150" rx="30" ry="30" />
-      </clipPath>
-    </defs>
-    <image href="./public/logo.png" width="150" height="150" clip-path="url(#round)" />
-  </svg>
+  <img src="./public/logo.png" alt="Flare Logo" width="150" height="150" style="border-radius: 30px;">
 
   <h1>Flare</h1>
 
