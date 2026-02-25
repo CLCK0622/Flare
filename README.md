@@ -2,15 +2,13 @@
 
   <img src="./public/logo.png" alt="Flare Logo" width="150" height="150" style="border-radius: 30px;">
 
-  <h2>Flare</h2>
+  <h1>Flare</h1>
 
   <p><b>Send the signal. See who's down.</b></p>
 
   <a href="https://sendaflare.app/waitlist">Join our waitlist today!</a>
 
 </div>
-
----
 
 ### Introduction
 
@@ -25,8 +23,6 @@ No elaborate planning, no formal event pages, and absolutely no commitment until
 * **Low-Friction Matching:** Tap *"I'm in!"* to express interest. The firer can then review and accept or pass.
 * **Ephemeral Chat:** A temporary 1:1 chat unlocks only *after* a match is accepted to coordinate the exact location and time.
 * **Auto-Expiry:** Flares disappear once their timeframe has passed (or max 24 hours). Chats and connections auto-delete 48 hours after the flare's timeframe ends, keeping the ecosystem fresh.
-
----
 
 <div align="center">
   <p>Zero planning. 100% hanging out.</p>
