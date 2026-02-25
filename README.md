@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+  <img src="./public/logo.png" alt="Flare Logo" width="150" height="150" style="border-radius: 30px;">
 
-First, run the development server:
+  <h2>Flare</h2>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+  <p><b>Send the signal. See who's down.</b></p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  <a href="https://sendaflare.app/waitlist">Join our waitlist today!</a>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+</div>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+### Introduction
 
-To learn more about Next.js, take a look at the following resources:
+**Flare** lets you broadcast a spontaneous hangout signal — a "flare" — to nearby people when you feel like doing something. You pick an activity and a rough timeframe, fire it off, and anyone nearby who's interested can respond.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+No elaborate planning, no formal event pages, and absolutely no commitment until someone bites. Just pure, spontaneous connection.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Core Features
 
-## Deploy on Vercel
+* **Fire a Flare:** Broadcast an activity (e.g., 🏸 Badminton, ☕ Coffee) + timeframe in just 2 taps. (Limit: One active flare per user at a time).
+* **Live Local Map:** Browse a live map of active flares within your configurable radius (1km–20km, default 5km).
+* **Low-Friction Matching:** Tap *"I'm in!"* to express interest. The firer can then review and accept or pass.
+* **Ephemeral Chat:** A temporary 1:1 chat unlocks only *after* a match is accepted to coordinate the exact location and time.
+* **Auto-Expiry:** Flares disappear once their timeframe has passed (or max 24 hours). Chats and connections auto-delete 48 hours after the flare's timeframe ends, keeping the ecosystem fresh.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<div align="center">
+  <p>Zero planning. 100% hanging out.</p>
+</div>
