@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="./public/logo.png" alt="Flare Logo" width="150" height="150" style="border-radius: 30px;">
+  <img width="120" height="120" alt="Flare-logo-rounded" src="https://github.com/user-attachments/assets/2f433733-bb95-4499-be1d-197420918c2c" />
 
   <h1>Flare</h1>
 
