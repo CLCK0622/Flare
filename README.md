@@ -1,8 +1,6 @@
 <div align="center">
 
-  <img width="120" height="120" alt="Flare-logo-rounded" src="https://github.com/user-attachments/assets/2f433733-bb95-4499-be1d-197420918c2c" />
-
-  <h1>Flare</h1>
+  <img width="120" height="120" alt="Flare-logo-rounded" src="https://github.com/user-attachments/assets/2f433733-bb95-4499-be1d-197420918c2c" /><br>
 
   <p><b>Send the signal. See who's down.</b></p>
 
